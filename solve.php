@@ -36,9 +36,9 @@ function calculateShortestDistance($cities = array())
     $prevDistance = 0;
 
     for ($i = 0; $i < $totalCities; $i++) {
+        $lastResult = end($result);
 
         foreach ($cities as $key => $city) {
-            $lastResult = end($result);
             $distance = getDistanceBetweenTwoPoints($lastResult['lat'], $lastResult['long'], $city['lat'], $city['long']);
 
             $isFirstElement = is_null($nextCity);
