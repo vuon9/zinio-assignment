@@ -1,3 +1,3 @@
 [ReAdMe]
 
-- A practice to solve Zinio interview question: How to optimize the direction between given cities.
+- Home assignment for applying Zinio interview question, 2018.
